@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="static/home_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script>
+      var last_msg = '';
+      window.onload = function() {
+        var down = {};
+        document.getElementById('bot_response').contenteditable = false;
+        $("#send").on("click", function() {
+          submit();
+        });
+        $(document).bind('keydown', function(event) {
+          if(event.which === 69 && event.metaKey) {
+            document.getElementById("client_input").value = last_msg;
+          }
+        });
+        $(document).bind('keydown', function(event) {
+          if(event.which === 81 && event.altKey) {
+            location.replace("/logout")
+          }
+        });
+      };
+      function submit() {
+        var form_data = document.getElementById("client_input").value;
+        last_msg = form_data;
+        document.getElementById('bot_response').contenteditable = true;
+        document.getElementById("bot_response").innerHTML = document.getElementById("bot_response").innerHTML + '<br><span style="color: #87b7de;">' + document.getElementById("client_input").value;
+        document.getElementById("client_input").value = "";
+        $.ajax({
+          type: "POST",
+          url: "/home",
+          data: $("#control_pannel").serialize(),
+          data: JSON.stringify(form_data),
+          contentType: "application/json; charset=utf-8",
+          dataType: "json",
+          success: function (data) {
+            console.log(data);
+            document.getElementById("bot_response").innerHTML = document.getElementById("bot_response").innerHTML + "<br>" + data;
+            document.getElementById("bot_response").style.removeProperty('height');
+            document.getElementById("bot_response").style.height = (document.getElementById("bot_response").scrollHeight+2) + 'px';
+            document.getElementById("bot_response").scrollTop = document.getElementById("bot_response").scrollHeight;
+            document.getElementById('bot_response').contenteditable = false;
+          }
+        });
+        return false;
+      }
+      function handle(e){
+        if(e.keyCode === 13){
+            e.preventDefault(); // Ensure it is only this code that runs
+            submit();
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav_container">
+        <ul>
+          <a class="nav_btn" id="home">HOME</a>
+          <a id="log_out_btn" href="/logout">Logout</a>
+        </ul>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main_contents">
+        <div class="main_message">
+          <h1>Welcome</h1>
+          {% for message in messages %}
+          <p>{{message.message}}</p>
+          {% endfor %}
+        </div>
+        <div class="main_controls" id="main_controls">
+          <!--<textarea id="bot_response" name="" readonly></textarea>-->
+          <div id="bot_response"></div>
+          <form action="/home" method="POST" id="control_pannel" onkeypress="handle(event)">
+            <input id="client_input" type="text" name="" placeholder="">
+          </form>
+          <button class="btn" id="send">Send</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <a class="kill" href="/kill_server">Kill Server</a>
+      {% for v in version %}
+      <a id="version">{{v.version}}</a>
+      {% endfor %}
+    </div>
+  </body>
+</html>

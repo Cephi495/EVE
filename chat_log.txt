@@ -1,0 +1,236 @@
+
+ *Log cleared! 
+ what time?
+ *Please elaborate on: [what time?]
+ what time is it?
+ *The current time is: 17:01:13. 
+ what time will it?
+ *The current time is: 17:01:19. 
+ what time could it be?
+ *The current time is: 17:01:29. 
+ what time is?
+ *Please elaborate on: [what time is?]
+ what time could?
+ *Please elaborate on: [what time could?]
+ what time could it?
+ *The current time is: 17:01:54. 
+ what time is it?
+ *The current local time is: 17:20:27, CDT. 
+ what time is it in the central us?
+ *The time is: 17:26:04, CDT. 
+ what time is it in the central us?
+ *The time in central usis: . 
+ he.
+ *No response.
+ he.
+ *No response.
+ td.
+ *No response.
+ th.
+ *No response.
+ ho.
+ *No response.
+ what time is it in chicago america?
+ *No response.
+ what time is it?
+ *No response.
+ what time is it?
+ *No response.
+ what time is it?
+ *The time is: 18:10:25, CDT. 
+ what time is it?
+ *No response.
+ jyfk?
+ *No response.
+ test.
+ *No response.
+ the.
+ *No response.
+ what time is it?
+ *No response.
+ what
+ *Punctuation required. 
+ what?
+ *No response.
+ sdfg?
+ *No response.
+ sdfg.
+ *No response.
+ tyf.
+ *No response.
+ sfg.
+ *No response.
+ sdfg.
+ *No response.
+ fsgfg.
+ *No response.
+ wondering, what time is it?
+ *No response.
+ ssdg.
+ *No response.
+ sdfg.
+ *No response.
+ sg.
+ *No response.
+ dfg.
+ *No response.
+ america.
+ *No response.
+ what time is it?
+ *No response.
+ hello?
+ *No response.
+ hello?
+ *Hi. 
+ hello?
+ *Hi. 
+ what time?
+ *Please elaborate on: [what time?]
+ what time is it?
+ *The time is: 21:07:23, CDT. 
+ hello. What time is it in america denver?
+ *Hi. The time is: 21:08:00, CDT. 
+ what time is it in america denver?
+ *No response.
+ what time is it?
+ *The time is: 21:14:38, CDT. 
+ hi.
+ *No response.
+ hi.
+ *Hello. 
+ hi.
+ *Hello. 
+ hi.
+ *Hello. 
+ hi.
+ *No response.
+ hi
+ *Punctuation required. 
+ hi.
+ *No response.
+ hi.
+ *No response.
+ hi.
+ *No response.
+ hi.
+ *No response.
+ hi.
+ *No response.
+ hi.
+ *No response.
+ hi.
+ hi.
+ hi.
+ hi.
+ hi.
+ hi.
+ *Hello. 
+ what time is it?
+ *The time is: 22:28:39, CDT. 
+ what time is it in zulu?
+ *The time is: 22:29:01, CDT. 
+ hi.
+ *Hello. 
+ what time is it in zulu?
+ *The time is: 22:30:27, CDT. 
+ jk.
+ *No response.
+ what time wet?
+ what time zulu
+ *Punctuation required. 
+ what time zulu?
+ what time zulu?
+ *The time is: 22:37:10, CDT. 
+ hi.
+ *Hello. 
+ hi.
+ *Hello. 
+ hi.
+ *Hello. 
+ what time is it?
+ *The time is: 22:40:01, CDT. 
+ the time is what?
+ *The time is: 22:40:10, CDT. 
+ it is the time what?
+ *Please elaborate on: [it is the time what?]
+ what time is it in zulu?
+ *The time is: 22:40:42, CDT. 
+ what time is it?
+ hi.
+ *Hello. 
+ hi?
+ *Hello. 
+ what time is it?
+ *The time in zulu is: 03:51:06, UTC. 
+ hi.
+ *Hello. 
+ what time?
+ *The time is: 23:04:43, CDT. 
+ what time is it in zulu?
+ *The time is: 23:06:02, CDT. 
+ what time is it?
+ *The time is: 23:06:34, CDT. 
+ what time is it in america chicago?
+ *The time in america/chicago is: 23:06:51, CDT. 
+ what time is it tin america denver?
+ *The time in america/denver is: 22:07:12, MDT. 
+ what time is it in denver?
+ *The time is: 23:07:44, CDT. 
+ what time is it?
+ *The time is: 23:08:26, CDT. 
+ what time is it in denver?
+ *The time is: 23:08:34, CDT. 
+ what time is it in america denver?
+ *The time in america/denver is: 22:08:43, MDT. 
+ what time is it in denver america?
+ *The time in america/denver is: 22:08:54, MDT. 
+ what time is it in wet?
+ *The time is: 23:09:04, CDT. 
+ what time is it?
+ *The time is: 23:09:56, CDT. 
+ what time is it in Africa/Accra?
+ *The time is: 23:10:24, CDT. 
+ what time is it in                             if main_string_no_punc.split() == timezone:
+ *Punctuation required. 
+                                 string_detected_country = timezonewhat time is it in Africa/Abidjan?
+ what time is it in Africa/Abidjan?
+ *The time is: 23:16:35, CDT. 
+ what time is it in af?
+ *The time is: 23:17:29, CDT. 
+ what time is it in Africa/Accra?
+ *The time is: 23:17:47, CDT. 
+ what time is it in Africa/Accra?
+ *The time is: 23:18:27, CDT. 
+ what time is it in zulu?
+ what time is it in zulu?
+ *The time is: 23:21:27, CDT. 
+ what time is it in zulu?
+ *The time is: 23:24:55, CDT. 
+ what time is it in zulu?
+ *The time is: 23:28:03, CDT. 
+ what time is it in america denver?
+ *The time in America/Denver is: 22:28:30, MDT. 
+ what time is it in denver america?
+ *The time in America/Denver is: 22:30:25, MDT. 
+ what time is it in Zulu?
+ *The time is: 23:30:38, CDT. 
+ what time is it in zulu?
+ *The time is: 23:32:38, CDT. 
+ what time is it in zulu?
+ what time is it in zulu?
+ *The time is: 23:34:42, CDT. 
+ what time is it in zulu?
+ *The time is: 23:37:15, CDT. 
+ bbbbvbbv.
+ *No response.
+ what time is it in america denver?
+ *The time in America/Denver is: 22:39:12, MDT. 
+ what time is it in zulu?
+ *The time is: 23:39:27, CDT. 
+ what time is it in WET?
+ *The time is: 23:41:43, CDT. 
+ what time is it in Africa/Algiers?
+ *The time is: 23:42:25, CDT. 
+ what time is it in Africa Algiers?
+ *The time in Africa/Algiers is: 05:42:57, CET. 
+ what time is it in Africa/Algiers?
