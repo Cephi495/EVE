@@ -1,13 +1,13 @@
 """ Things I still want want to add:
-TODO: base language metrics off specific dictionary **
 
+TODO: base language metrics off specific dictionaries **
 TODO: spell check / suggestions
 TODO: grammar check / suggestions
 TODO: take one response and separate it into sub-responses based on punctuation, respond individually
 TODO: implement csv functionality
 TODO: create yes, no command instances
 
-SOURCES:
+RESOURCES: 
 
 https://en.wikipedia.org/wiki/Auxiliary_verb
 
